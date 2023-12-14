@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#5d5d5d"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/highScoresTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="High Scores"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+
+    <ListView
+        android:id="@+id/highScoresList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10dp"/>
+
+    <Button
+        android:id="@+id/btnBackToMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Main Menu"
+        android:backgroundTint="#000000"/>
+</LinearLayout>
